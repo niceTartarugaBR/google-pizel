@@ -1,0 +1,20 @@
+.Header{
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+.headerWrapper{
+    max-width: var(--tamanho-maximo);
+    margin: 0 auto;
+    padding: 16px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navWrapper ul{
+    display: flex;
+    gap: 32px;
+}
+
